@@ -1,0 +1,150 @@
+repo_name: LaggAt/BitcoinSPV
+report_id: 303af5ae17fcc672a94da750f21ed542
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:53:11+00:00'
+requested_by: keeshux
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/Podfile
+  detection_source: Podfile
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2014-12-03 18:02:31.000000000 Z
+- name: CocoaLumberjack
+  description: A fast &amp; simple, yet powerful &amp; flexible logging framework
+    for Mac and iOS
+  website_url: https://github.com/CocoaLumberjack/CocoaLumberjack
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/5364/LumberjackLogo.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/BitcoinSPV.podspec
+  detection_source: BitcoinSPV.podspec
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2015-04-20 21:03:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2015-11-05 14:06:16.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/Podfile.lock
+  detection_source: Podfile.lock
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2015-09-16 10:37:51.000000000 Z
+- name: AutoCoding
+  description: AutoCoding is a category on NSObject that provides automatic support
+    for NSCoding to any object
+  package_url: https://cocoapods.org/pods/AutoCoding
+  version: 2.2.1
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/Podfile.lock
+  detection_source: BitcoinSPV.podspec
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2015-04-20 21:03:42.000000000 Z
+- name: CocoaAsyncSocket
+  description: Asynchronous socket networking library for Mac and iOS
+  package_url: https://cocoapods.org/pods/CocoaAsyncSocket
+  version: 7.4.2
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/Podfile.lock
+  detection_source: BitcoinSPV.podspec
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2015-04-20 21:03:42.000000000 Z
+- name: OpenSSL
+  description: OpenSSL is an SSL/TLS and Crypto toolkit
+  package_url: https://cocoapods.org/pods/OpenSSL
+  version: 1.0.210
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/Podfile.lock
+  detection_source: Podfile
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2017-09-21 11:01:21.000000000 Z
+- name: OpenSSL-Universal
+  description: OpenSSL for iOS and OS X
+  package_url: https://cocoapods.org/pods/OpenSSL-Universal
+  license: ''
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/LaggAt/BitcoinSPV/blob/master/BitcoinSPV.podspec
+  detection_source: BitcoinSPV.podspec
+  last_updated_by: Davide De Rosa
+  last_updated_on: 2017-09-21 11:09:59.000000000 Z
